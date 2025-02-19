@@ -79,7 +79,7 @@ $conn->close();
 </head>
 <body>
     <div class="container">
-        <h1>Edit Profile</h1>
+        <h1>Settings Profile</h1>
         <?php if (isset($success)): ?>
             <p class="success"><?php echo htmlspecialchars($success); ?></p>
         <?php endif; ?>
